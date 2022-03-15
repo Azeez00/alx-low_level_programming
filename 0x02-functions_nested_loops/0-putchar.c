@@ -3,7 +3,6 @@
 
 /**
  * main - putchar
- * 
  * _putchar print the characters given
  * Return: Always 0 for (success)
  */
