@@ -1,16 +1,10 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _isupper - checks is a character is uppercase
- * @c: carrier integer variable
- * Return: 1 if true, 0 if false
+ * _isupper - checks for uppercase character
+ * @letter: the character to be tracked
+ * Return: 1 if c is uppercase, 0 otherwise
  */
-
-int _isupper(int c)
+int _isupper(int letter)
 {
-	if (c >= 65 && c <= 90)
-	{
-		return (1);
-	}
-	return (0);
-}
+	return (letter >= 'A' && letter <= 'Z');
